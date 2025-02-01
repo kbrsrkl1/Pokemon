@@ -1,0 +1,34 @@
+.Pokedex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 20px ;
+}
+
+.Pokedex-cards{
+    display: flex;
+    width: 217vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+
+.Pokedex-winner{
+    color: #4caf50
+}
+
+.Pokedex-loser{
+    color: rgb(155, 4, 4);
+}
+
+
+.total-exp {
+    text-align: center; /* Yazıyı yatayda ortalar */
+    width: 100%; /* Kendi satırında tam genişlik kaplamasını sağlar */
+    font-size: 1.5rem; /* Daha belirgin hale getirmek için */
+    margin-bottom: 10px; /* Altına biraz boşluk ekler */
+    font-weight: bold; /* Kalın yapar */
+}
